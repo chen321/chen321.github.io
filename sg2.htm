@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>。。。</title>
+  <style>
+         .menu li {
+        list-style-type: none;
+        float: left;
+        padding: 11px 20px;
+        margin: 0 20px 0 0;
+        position: relative;   
+    }   
+    .banner{
+      height:400px;
+      background: url('http://dl.pinyin.sogou.com/index/2.0/banner_8.0.2.jpg') center;
+    }
+    .banner .btn{
+      width: 241px;
+      height: 60px;
+      display: inline-block;
+      background: url('http://dl.pinyin.sogou.com/index/2.0/btn_down_one_8.0.1.png') left top;
+      position: absolute;
+      right:140px;
+      top:300px;
+    }
+     .clearfix::after {
+        content: "";
+        width: 0;
+        height: 0;
+        font-size: 0;
+        display: block;
+        clear: both;
+    }
+    body{
+      margin: 0;
+    }
+    .top {
+        width: 1000px;
+        margin: 10px auto;
+        position: relative;
+    }
+    
+    .top .logo {
+        width: 193px;
+        height: 40px;
+        float: left;
+    }
+    
+    .top .search {
+        width: 345px;
+        height: 32px;
+        float: right;
+    }
+    
+    .top .search #key {
+        width: 290px;
+        height: 26px;
+        outline: none;
+        border: 1px solid #eee;
+        text-indent: 10px;
+        float: left;
+    }
+
+    .menucon {
+        width: 100%;
+        height: 40px;
+        background-color: #FC6B2D;
+    } 
+    .menucon .menu{
+      width: 1000px;
+      margin: 0 auto;
+    }
+    .menucon .menu li{
+      list-style-type: none;
+      font-weight: bolder;
+      float: left;
+      padding:11px 35px;
+      margin: 0px 20px 0 10px;
+      position: relative;
+    }
+    .menu li.new::after {
+        content: "";
+        width: 26px;
+        height: 14px;
+        background: url('http://dl.pinyin.sogou.com/index/2.0/new.png');
+        position: absolute;
+        top: -16px;
+        right: 30px;
+    }
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .menu li.act,
+    .menu li:hover {
+        background-color: #E94F0D;
+    }
+  </style>
+</head>
+<body>
+  <div class="top clearfix">
+    <div class="logo">
+      <a href="http://pinyin.sogou.com/">
+        <img src="http://dl.pinyin.sogou.com/index/header/logo.png" alt="">
+      </a>
+    </div>
+    <div class="search clearfix">
+      <input type="text" name="key" id="key">
+      <input type="submit" id="btn" value="搜索">
+    </div>
+  </div>
+    <div class="menucon">
+        <ul class="menu clearfix">
+            <li class="act">
+                <a href="">首页</a>
+            </li>
+            <li>
+                <a href="">皮肤</a>
+            </li>
+            <li>
+                <a href="">词库</a>
+            </li>
+            <li class="new">
+                <a href="">子媒体</a>
+            </li>
+            <li>
+                <a href="">帮助</a>
+            </li>
+            <li>
+                <a href="">升级日志</a>
+            </li>
+            <li>
+                <a href="">论坛</a>
+            </li>
+        </ul>
+    </div>
+    <div class="banner">
+    <div class="top">
+      <a class="btn" href="#"></a>
+    </div>
+</body>
+</html>
